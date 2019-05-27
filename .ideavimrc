@@ -1,0 +1,12 @@
+nmap vv viw
+vmap s <nop>
+nmap <Space> :action AceAction<CR>
+vmap f :action FindInPath<CR>
+nmap ? vv:action Haskell.ShowType<CR>
+vmap ? :action Haskell.ShowType<CR>
+nmap se :action ErrorDescription<CR>
+nmap code :action ToggleDistractionFreeMode<CR>
+
+
+
+
