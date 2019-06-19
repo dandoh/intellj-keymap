@@ -23,10 +23,6 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta divide" />
-    <keyboard-shortcut first-keystroke="shift meta c" />
-  </action>
   <action id="Compare.SameVersion">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
@@ -36,9 +32,21 @@
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta s" />
@@ -46,12 +54,16 @@
   <action id="Elm.RunExternalElmFormat">
     <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
   <action id="FindUsagesInFile" />
+  <action id="Github.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoFile" />
@@ -66,12 +78,14 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="IncrementalSearch" />
+  <action id="NewScratchFile" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta f6" />
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="alt l" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
+  <action id="OptimizeImports" />
   <action id="PasteMultiple" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta f6" />
@@ -88,6 +102,7 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="RunToCursor" />
+  <action id="SetShortcutAction" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="meta f3" />
@@ -102,7 +117,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta t" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
-  <action id="TodoViewGroupByShowPackages" />
+  <action id="TodoViewGroupByShowModules" />
+  <action id="TodoViewGroupByShowPackages">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
@@ -113,6 +131,9 @@
   <action id="ToggleFullScreen" />
   <action id="Tool_External Tools_Hindent">
     <keyboard-shortcut first-keystroke="ctrl meta f" />
+  </action>
+  <action id="VimWindowOnly">
+    <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
   <action id="emacsIDEAs.AceJump">
     <keyboard-shortcut first-keystroke="alt m" />
